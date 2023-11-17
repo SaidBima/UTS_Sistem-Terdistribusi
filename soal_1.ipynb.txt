@@ -1,1 +1,21 @@
-{"nbformat":4,"nbformat_minor":0,"metadata":{"colab":{"provenance":[]},"kernelspec":{"name":"python3","display_name":"Python 3"},"language_info":{"name":"python"}},"cells":[{"cell_type":"markdown","metadata":{"id":"view-in-github"},"source":["<a href=\"https://colab.research.google.com/github/RizalAkbarFitrianto/UTS_Sistem_Terdistribusi/blob/main/SoalNo1.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"]},{"cell_type":"code","execution_count":1,"metadata":{"id":"kHyGKHCj1F7o","executionInfo":{"status":"ok","timestamp":1700139332074,"user_tz":-420,"elapsed":350,"user":{"displayName":"Miftakhul Choir","userId":"04313868360767311847"}}},"outputs":[],"source":["#!/bin/python3\n","\n","import math\n","import os\n","import random\n","import re\n","import sys"]},{"cell_type":"code","source":["if __name__ == '__main__':\n","    n = int(input().strip())\n","\n","    if n%2 != 0:\n","        print(\"Weird\")\n","    elif n%2 == 0 and n>2 and n<=5:\n","        print(\"Not Weird\")\n","    elif n%2 ==0 and n > 6 and n <=20:\n","        print(\"Weird\")\n","    else:\n","        print(\"Not Weird\")"],"metadata":{"colab":{"base_uri":"https://localhost:8080/"},"id":"rWnlAfV-1c2d","outputId":"de08dfd9-8e25-4ec6-82f9-7dc97b40d1fc","executionInfo":{"status":"ok","timestamp":1700139338487,"user_tz":-420,"elapsed":6059,"user":{"displayName":"Miftakhul Choir","userId":"04313868360767311847"}}},"execution_count":2,"outputs":[{"output_type":"stream","name":"stdout","text":["7\n","Weird\n"]}]}]}
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+     
+
+if __name__ == '__main__':
+    n = int(input().strip())
+
+    if n%2 != 0:
+        print("Weird")
+    elif n%2 == 0 and n>2 and n<=5:
+        print("Not Weird")
+    elif n%2 ==0 and n > 6 and n <=20:
+        print("Weird")
+    else:
+        print("Not Weird")
+     
